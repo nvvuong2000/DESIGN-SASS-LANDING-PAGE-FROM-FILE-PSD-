@@ -1,0 +1,48 @@
+$mx :#2ecc71
+$mh :#9b59b6
+$rong: 900px
+$rongcot: 50px
+
+@mixin define
+    color: yellow
+    font-size: 10px
+@mixin reset-list
+    margin: 0
+    padding: 0
+    list-style: none
+    color: red
+*
+    margin: 0px
+    padding: 0px
+
+    body
+        background-color: green
+    h1
+        // color: $mh
+        // font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif
+        @include define
+        
+    h2
+        color: $mx
+    ul li
+        @include reset-list
+    .parent
+        background-color: black
+        .text
+            color: white
+            font:
+                size: 15px
+                
+                family: Arial, "Helvetica Neue", Helvetica, sans-serif
+            &:hover
+                color: yellow
+    .row
+        width: $rong
+        margin: auto
+        .col
+            float: left
+            width: ($rong - 2*$rongcot)/3
+            margin-right: 20px
+            &:last-child
+                margin-right: 0px
+        

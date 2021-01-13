@@ -1,0 +1,290 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+* img {
+  max-width: 100%;
+}
+* header {
+  height: auto;
+  background-color: #e1e1e1;
+  line-height: 50px;
+}
+* .html, * .body {
+  min-height: 100%;
+}
+* .left {
+  text-align: center;
+  font-size: 12px;
+  font-family: "Oswald", sans-serif;
+}
+* .left i {
+  margin-right: 2px;
+}
+* .left span {
+  margin-right: 20px;
+  color: #a7a7a7;
+  display: inline;
+  text-decoration: none;
+}
+* .main {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 30px;
+  font-family: "Playfair Display", serif;
+}
+* .main p {
+  text-align: center;
+}
+* .right {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 12px;
+  font-family: "Oswald", sans-serif;
+}
+* .right ul li {
+  display: inline;
+  list-style-type: none;
+}
+* .right ul li a {
+  margin-right: 20px;
+  color: #a7a7a7;
+  display: inline;
+  text-decoration: none;
+}
+* nav {
+  display: inline;
+  line-height: 50px;
+  height: 50px;
+  background-color: white;
+  font-size: 13px;
+  font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
+}
+* .right {
+  display: inline;
+}
+* nav .row .inline {
+  display: inline;
+}
+* ul {
+  display: inline;
+}
+* ul li {
+  display: inline;
+  list-style-type: none;
+}
+* ul li a {
+  margin-right: 20px;
+  color: #a7a7a7;
+  display: inline;
+  text-decoration: none;
+}
+* .main-model {
+  height: 460px;
+  background-image: url("img/model-main.png");
+  background-image-background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+* .title {
+  text-transform: uppercase;
+  color: #a4836d;
+  font-size: 72px;
+  font-family: "Playfair Display", serif;
+}
+* .content {
+  color: #c0c0c0;
+  font-size: 14px;
+  font-family: "Oswald", sans-serif;
+  margin-top: 20px;
+}
+* .btn-group {
+  margin-top: 40px;
+}
+* .btn-left {
+  color: white;
+  height: 40px;
+  width: 120px;
+  text-transform: uppercase;
+  background-color: #424242;
+  font-size: 13px;
+  height: 40px;
+  width: 130px;
+}
+* .btn-left2 {
+  color: white;
+  height: 40px;
+  width: 120px;
+  text-transform: uppercase;
+  background-color: #a4836d;
+  font-size: 13px;
+  height: 40px;
+  width: 130px;
+}
+* .btn-right {
+  color: white;
+  text-transform: uppercase;
+  background-color: #a4836d;
+  font-size: 13px;
+  text-align: center;
+  height: 40px;
+  width: 112px;
+}
+* .main-text {
+  bottom: 50px;
+}
+* .main-2 {
+  margin-top: 60px;
+}
+* .main2-left {
+  float: left;
+  background-image: url("./img/model-2.png");
+  height: 658px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+* .main-text2 {
+  margin-top: 390px;
+}
+* .content2 {
+  color: #a3a3a3;
+  text-transform: uppercase;
+  font-size: 30px;
+  font-family: "Oswald", sans-serif;
+  margin-bottom: 20px;
+}
+* .m-top, * .m-bottom {
+  height: 305px;
+}
+* .main2-right {
+  float: left;
+  height: 658px;
+}
+* .m-top {
+  padding: 60px;
+  background-image: url("./img/model-3.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+* .m-bottom {
+  margin-top: 60px;
+  padding: 60px;
+  background-image: url("./img/model-4.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+* .news {
+  height: 200px;
+  text-align: center;
+  margin: 70px;
+}
+* .news .title {
+  text-transform: uppercase;
+  font-size: 36px;
+  font-family: "Playfair Display", serif;
+}
+* .news p {
+  font-size: 13px;
+  font-family: "Oswald", sans-serif;
+}
+* .mr-30 {
+  margin-right: 30px;
+}
+* .product {
+  height: auto;
+}
+* .people {
+  height: auto;
+}
+* .product1 {
+  height: auto;
+}
+* .info {
+  margin-top: 15px;
+  text-align: center;
+}
+* .info .name {
+  text-transform: uppercase;
+  font-size: 14px;
+  font-family: "Playfair Display", serif;
+}
+* .info p {
+  font-size: 14px;
+  font-family: "Playfair Display", serif;
+}
+* .discount {
+  background-color: #e1e1e1;
+  margin: 70px auto;
+  padding: 40px;
+  text-align: center;
+}
+* .discount .title {
+  color: #424242;
+  font-size: 36px;
+  font-family: "Oswald", sans-serif;
+}
+* .discount p {
+  font-size: 13px;
+  font-family: "Oswald", sans-serif;
+}
+* .input-group.mb-3 {
+  margin: auto;
+}
+* .blog {
+  background-color: #dfdee0;
+}
+* .blog .title {
+  margin-bottom: 15px;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 18px;
+  font-family: "Playfair Display", serif;
+}
+* .blog .p {
+  margin-bottom: 15px;
+  font-size: 18px;
+  font-family: "Oswald", sans-serif;
+}
+* .blog .bound {
+  text-align: center;
+}
+* .blog-left {
+  height: 520px;
+  background-image: url("./img/blog.png");
+}
+* .info-people {
+  margin-top: 15px;
+}
+* .info-people .name {
+  font-size: 14px;
+  font-family: "Oswald", sans-serif;
+}
+* .info-people p {
+  font-size: 14px;
+  font-family: "Oswald", sans-serif;
+}
+* footer {
+  margin: 50px;
+  padding: 20px;
+  text-align: center;
+}
+* footer p {
+  font-size: 14px;
+  font-family: "Oswald", sans-serif;
+}
+* .mb-15 {
+  margin-bottom: 15px;
+}
+* .navbar.navbar-expand-lg.navbar-light.bg-light {
+  background-color: #e1e1e1 !important;
+}
+* #bootstrap-overrides nav {
+  background-color: #e1e1e1 !important;
+}
+
+/*# sourceMappingURL=2.css.map */

@@ -1,0 +1,309 @@
+$maunen: #e1e1e1
+$text: #a4836d
+$font-text: 'Oswald', sans-serif
+$font-main: 'Playfair Display', serif
+$size-main: 30px
+$size-text: 12px
+$color-text: #a7a7a7
+$mr-30: 30px
+$mb-15: 15px
+$mobile-width: 480px
+$tablet-width: 768px 
+$desktop-width: 1024px  
+@mixin inline
+    display: inline
+    
+*
+    padding: 0px
+    margin: 0px
+    img
+        max-width: 100%
+    header
+        // position: relative
+        height: auto
+        background-color: $maunen
+        line-height: 50px
+    .html,.body
+        min-height: 100%
+    .left
+        text-align: center
+        font:
+            size: $size-text
+            family: $font-text
+        i
+            margin-right: 2px
+        span
+            margin-right: 20px
+            color: $color-text
+            display: inline
+            text-decoration: none
+            
+    .main
+           
+            text-align: center
+            text-transform: uppercase
+            font:
+                size: $size-main
+                family: $font-main
+            p
+                
+                text-align: center 
+    .right
+        text-transform: uppercase
+        text-align: center
+        font:
+            size: $size-text
+            family: $font-text         
+        ul
+            li
+                display: inline
+                list-style-type: none              
+                a
+                    margin-right: 20px
+                    color: $color-text
+                    display: inline
+                    text-decoration: none
+    nav
+        display: inline
+        line-height: 50px
+        height: 50px
+        background-color: white
+        font:
+            size: 13px
+            family: $font-text
+        text-transform: uppercase
+        // text-align: center
+        
+    .right
+        @include inline
+    nav .row .inline
+        display: inline
+    ul
+        display: inline
+            
+            
+        li
+            display: inline
+            list-style-type: none              
+            a
+                margin-right: 20px
+                color: $color-text
+                display: inline
+                text-decoration: none
+    .main-model
+        height: 460px
+        background-image: url('img/model-main.png')
+         background-position: bottom
+        background-repeat: no-repeat
+        background-size: cover
+        background-position: center center
+        // background-size: cover
+    .title
+        text-transform: uppercase
+        color: #a4836d
+        font:
+            size:72px
+            family: $font-main
+    .content
+      
+        color: #c0c0c0
+        font:
+            size:14px
+            family: $font-text
+        margin-top: 20px
+    .btn-group
+        margin-top: 40px
+      
+        
+       
+    .btn-left
+        color: white
+        height: 40px
+        width: 120px
+        text-transform: uppercase
+        
+        background-color: #424242
+        font-size: 13px
+        // text-align: center
+        height: 40px
+        width: 130px
+    .btn-left2
+        color: white
+        height: 40px
+        width: 120px
+        text-transform: uppercase
+        
+        background-color: #a4836d
+        font-size: 13px
+        // text-align: center
+        height: 40px
+        width: 130px
+    .btn-right
+        color: white
+        text-transform: uppercase
+        background-color: #a4836d
+        font-size: 13px
+        text-align: center
+        height: 40px
+        width: 112px
+    .main-text
+        // margin-top: 50px
+    .main-text
+        bottom: 50px
+    .main-2
+        margin-top: 60px
+    .main2-left
+        float: left
+        background-image: url('./img/model-2.png')
+        height: 658px
+        
+        background-position: center center
+        background-repeat: no-repeat
+        background-size: cover
+    .main-text2
+        margin-top: 390px
+    .content2
+        color: #a3a3a3
+        text-transform: uppercase
+        font: 
+            size: 30px
+            family: $font-text
+        margin-bottom: 20px
+    .m-top ,.m-bottom
+        height:305px
+       
+    .main2-right
+        // padding-left:70px
+        float: left
+        height:658px
+        // background-color: green
+    .m-top
+        padding: 60px
+        background-image: url('./img/model-3.png')
+        background-position: center center
+        background-repeat: no-repeat
+        background-size: cover
+    .m-bottom
+        margin-top: 60px
+        padding: 60px
+        background-image: url('./img/model-4.png')
+        background-position: center center
+        background-repeat: no-repeat
+        background-size: cover
+    .news
+        height: 200px
+        text-align: center
+        margin: 70px
+        .title
+            text-transform: uppercase
+            font:
+                size:36px
+                family: $font-main
+        p
+         font:
+            size:13px
+            family: $font-text
+    .mr-30
+        margin-right: $mr-30
+    .product
+        height: auto
+    .people
+       height: auto
+    .product1
+        height: auto
+    .info
+        margin-top: 15px
+        text-align: center
+        .name
+            text-transform: uppercase
+            font:
+                size: 14px
+                family: $font-main
+        p
+
+            font: 
+                size: 14px
+                family: $font-main
+    .discount 
+        background-color: #e1e1e1
+        margin: 70px auto
+        padding: 40px
+        text-align: center
+        .title
+            color: #424242
+            font:
+                size:36px
+                family: $font-text
+        p
+         font:
+            size:13px
+            family: $font-text
+    .input-group.mb-3 
+        margin: auto
+    .blog
+        // height:520px
+        background-color:#dfdee0
+        .title
+            margin-bottom: 15px
+            font-weight: bold
+            font-style: italic
+
+            font-size: 18px
+            font-family: $font-main
+        .p
+            margin-bottom: 15px
+            font-size: 18px
+            font-family: $font-text
+        .bound
+            text-align: center
+            // margin-left: -190px
+    // /* margin: auto; */
+            position: absolute
+            // margin-top: 200px
+
+    .blog-left
+
+        height:520px
+        background-image: url('./img/blog.png')
+    .info-people
+        margin-top: 15px
+        // text-align: center
+        .name
+            // text-transform: uppercase
+            font:
+                size: 14px
+                family: $font-text
+        p
+
+            font: 
+                size: 14px
+                family: $font-text
+    footer
+        margin: 50px
+        // background-color: #e1e1e1
+        padding: 20px
+        text-align: center
+        p
+
+            font: 
+                size: 14px
+                family: $font-text
+    .mb-15
+        margin-bottom: $mb-15
+    .navbar.navbar-expand-lg.navbar-light.bg-light 
+        background-color: #e1e1e1 !important
+    #bootstrap-overrides nav
+        background-color: #e1e1e1 !important
+@mixin mobile 
+    #navbarNav
+        display: none
+ 
+
+
+
+
+
+
+
+
+        
